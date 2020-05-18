@@ -180,6 +180,7 @@ window.app = function () {
 			document.querySelector(".age h4 span").innerHTML = i18next.t("age");
 			document.querySelector(".height h4 span").innerHTML = i18next.t("height");
 			document.querySelector(".haircolor h4").innerHTML = i18next.t("haircolor");
+			document.querySelector(".eyecolor h4").innerHTML = i18next.t("eyecolor");
 			document.querySelector(".hairlength h4").innerHTML = i18next.t("hairlength");
 			document.querySelector(".feature h4").innerHTML = i18next.t("feature-" + _gender);
 			document.querySelector(".body h4").innerHTML = i18next.t("body-" + _gender);
@@ -11872,7 +11873,7 @@ var config = {
 					"user-choice-male": "How many Drinks for your boyfriend?",
 					"user-choice-female": "How many Drinks for your girlfriend?",
 					age: "Age",
-					height: "Height (cm)",
+					height: "Height",
 					eyecolor: "Eyecolor",
 					haircolor: "Haircolor",
 					hairlength: "Hairlength",
@@ -11889,26 +11890,26 @@ var config = {
 			},
 			de: {
 				translation: {
-					key: "Getränke Calculator",
+					key: "Getränke Rechner",
 					more: "Hier kannst du den Wert deiner Freundin, deines Freundes oder natürlich von dir selbst, in Kamelen berechnen. Hierzu benötigen wir aber erst ein paar Angaben zur Person.",
-					"option-0": "Wie viele Getränke ist dein Freund wert?",
-					"option-1": "Wie viele Getränke ist deine Freundin wert?",
+					"option-0": "Wie viele Getränke ist deine Freundin wert?",
+					"option-1": "Wie viele Getränke ist dein  Freund wert?",
 					"user-choice-female": "Wie viele Getränke ist deine Freundin wert?",
 					"user-choice-male": "Wie viele Getränke ist dein Freund wert?",
 					age: "Alter",
-					height: "Größe (cm)",
+					height: "Größe",
 					eyecolor: "Augenfarbe",
-					haircolor: "Haarlänge",
+					haircolor: "Haarfarbe",
 					hairlength: "Haarlänge",
 					"feature-male": "Bart",
 					"feature-female": "Körbchengröße",
 					"body-male": "Oberkörper",
 					"body-female": "Figur",
-					calculate: "berechnen",
+					calculate: "Berechnen",
 					back: "Nochmal Berechnen?",
-					"male-answer": "Dein freund ist",
-					"female-answer": "Deine freundin ist",
-					drinks: "getränke wert"
+					"male-answer": "Dein Freund ist",
+					"female-answer": "Deine Freundin ist",
+					drinks: "Getränke wert"
 				}
 			},
 			ua: {

@@ -180,6 +180,7 @@ window.app = function () {
 			document.querySelector(".age h4 span").innerHTML = i18next.t("age");
 			document.querySelector(".height h4 span").innerHTML = i18next.t("height");
 			document.querySelector(".haircolor h4").innerHTML = i18next.t("haircolor");
+			document.querySelector(".eyecolor h4").innerHTML = i18next.t("eyecolor");
 			document.querySelector(".hairlength h4").innerHTML = i18next.t("hairlength");
 			document.querySelector(".feature h4").innerHTML = i18next.t("feature-" + _gender);
 			document.querySelector(".body h4").innerHTML = i18next.t("body-" + _gender);
